@@ -1,38 +1,116 @@
 .App {
-  text-align: center;
+  text-align: left;
+  background-color: whitesmoke;
+  
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+Nav, Nav.Link{
+ font-size: 15px;
+ font-family: arial;
+ text-decoration: none;
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul{
+  border: 1px solid white;
+  margin-top: 10px;
+  text-underline-position: none;
+  border-radius: 40px;
+  background-color:rgb(112, 13, 13);
+  color:whitesmoke;
+ justify-content: center;
+  
 }
+ul, li{
+ list-style: none;
+ padding: 1px;
+ float: right;
+ 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+} 
+ul:hover{
+  background-color: blue;
+  color:white;
+}
+.banner{
+  background-image: url("assests/images/download.jpg");
+  background-size: cover;
+  height:500px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  align-items:flex-start;
+  opacity: 5;
+  position:relative;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-title{
+  margin-right: 100px;
+  margin-top: 90px;
+  padding: 16px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-title h1{
+  color: rgb(128, 20, 38);
+  font-weight: bold;
+  box-shadow: 5px 10px 0px 5px;
+  margin-right: 80px;
+  font-size: 70px;
+  
 }
+.banner-title p{
+  color:blue;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.title{
+  color:white;
+}
+
+.container{
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px;
+  margin-left: 100px;
+  
+}
+.container h1{
+  color: black;
+}
+.content{
+  margin-left: 70px;
+  
+}
+
+.header{
+  color:blue;
+}
+
+.side-content{
+  background-color: rgb(59, 11, 13);
+}
+.side-content h3{
+  color: whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 20px;
+  margin-top: 30px;
+}
+.side-content p{
+  color: whitesmoke;
+  font-family:serif;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.gallery{
+  margin-left: 90px;
+}
+
+
+
+
+
+
